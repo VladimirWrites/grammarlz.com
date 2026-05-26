@@ -3,81 +3,173 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>grammarlz.com - Spelling errors? There's an app for that</title>
-    <meta name="description" content="Looking for Grammarly? You've made a spelling error. Click here to get to the right place for grammar and spelling help.">
-    <meta name="keywords" content="grammarly, grammar check, spelling check, writing assistant">
-    <meta property="og:title" content="grammarlz.com - Spelling errors? There's an app for that">
-    <meta property="og:description" content="Looking for Grammarly? You've made a spelling error. Click here to get to the right place.">
+
+    <title>grammarlz.com — Did you mean Grammarly? (You made a typo)</title>
+    <meta name="description" content="grammarlz.com is the spelling mistake you make on your way to Grammarly. You typed it wrong — fittingly. Here's the correction, and a one-click route to the real grammar and spell checker.">
+    <meta name="keywords" content="grammarly, grammarlz, gramarly, grammerly, grammary, did you mean grammarly, grammar check, spell check, spelling checker, writing assistant, grammarly login">
+    <meta name="author" content="grammarlz.com">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#f5f1e8">
+    <link rel="canonical" href="https://grammarlz.com/">
+
+    <!-- Icons -->
+    <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="grammarlz.com — Did you mean Grammarly?">
+    <meta property="og:description" content="You misspelled the spelling tool. The irony is not lost on us. Here's the correction and a one-click route to Grammarly.">
     <meta property="og:type" content="website">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
+    <meta property="og:url" content="https://grammarlz.com/">
+    <meta property="og:site_name" content="grammarlz.com">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:image" content="https://grammarlz.com/assets/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="grammarlz — did you mean Grammarly?">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="grammarlz.com — Did you mean Grammarly?">
+    <meta name="twitter:description" content="You misspelled the spelling tool. The irony is not lost on us.">
+    <meta name="twitter:image" content="https://grammarlz.com/assets/og-image.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,900;1,9..144,400;1,9..144,600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Structured data: keeps search engines correct even when the visitor wasn't -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "grammarlz.com",
+      "url": "https://grammarlz.com/",
+      "description": "grammarlz.com is a common misspelling of Grammarly. This page corrects the typo and points visitors to the real grammar and spell checking tool."
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is grammarlz.com the same as Grammarly?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. grammarlz.com is an independent page, not affiliated with Grammarly Inc. It exists to catch the common typo 'grammarlz' and send you to the correct destination."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the correct spelling of Grammarly?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It is spelled G-R-A-M-M-A-R-L-Y, ending in 'ly', not 'lz'. Common misspellings include grammarlz, gramarly, grammerly and grammary."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I get to Grammarly from here?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Use the button on this page, or go directly to grammarly.com in your browser's address bar."
+          }
         }
-        
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 20px;
-        }
-        
-        .container {
-            text-align: center;
-            color: white;
-        }
-        
-        h1 {
-            font-size: 4rem;
-            margin-bottom: 20px;
-            font-weight: 700;
-        }
-        
-        .punchline {
-            font-size: 1.5rem;
-            margin-bottom: 40px;
-            opacity: 0.95;
-        }
-        
-        .button {
-            display: inline-block;
-            background: white;
-            color: #764ba2;
-            padding: 18px 45px;
-            font-size: 1.2rem;
-            font-weight: 600;
-            text-decoration: none;
-            border-radius: 50px;
-            transition: transform 0.2s ease, box-shadow 0.2s ease;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-        }
-        
-        .button:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
-        }
-        
-        @media (max-width: 768px) {
-            h1 {
-                font-size: 2.5rem;
-            }
-            .punchline {
-                font-size: 1.2rem;
-            }
-        }
-    </style>
+      ]
+    }
+    </script>
+
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>grammarlz.com</h1>
-        <p class="punchline">Spelling errors? There's an app for that</p>
-        <a href="https://www.grammarly.com" class="button" target="_blank" rel="noopener noreferrer">
-            Go to Grammarly →
-        </a>
-    </div>
+    <main class="wrap">
+
+        <p class="kicker reveal d1"><span class="dot"></span> Spell check &middot; 1 suggestion</p>
+
+        <section class="entry">
+            <h1 class="headword reveal d1">grammarlz</h1>
+
+            <p class="pronounce reveal d2">
+                <span>/&#609;r&#601;&#712;m&#593;r&#183;l&#601;z/</span>
+                <span><em>noun, informal</em></span>
+            </p>
+
+            <p class="correction reveal d3">
+                <span class="x-mark">[ misspelling of ]</span>
+                <span class="fix">grammarl<span class="z">z</span><span class="y">y</span></span>
+            </p>
+
+            <p class="definition reveal d4">
+                <span class="pos">def.</span> What you type when you misspell the tool built to fix your spelling.
+            </p>
+
+            <p class="note reveal d4">we caught it for you. <span class="arrow">&rarr;</span></p>
+
+            <div class="cta-row reveal d5">
+                <a class="button" href="https://www.grammarly.com" rel="noopener noreferrer">
+                    Continue to Grammarly <span class="arr">&rarr;</span>
+                </a>
+                <span class="stay">spelled right this time:<br><a href="https://www.grammarly.com" rel="noopener noreferrer">grammar&middot;ly</a>, ends in <strong>ly</strong></span>
+            </div>
+        </section>
+
+        <p class="rule-break reveal d6">For the record</p>
+
+        <div class="prose">
+            <section class="reveal d6">
+                <h2>You meant <span class="pen">Grammarly</span>.</h2>
+                <p>
+                    <strong>grammarlz.com</strong> is one keystroke off
+                    <a href="https://www.grammarly.com" rel="noopener noreferrer">Grammarly</a>, the writing
+                    assistant that checks grammar, spelling and tone as you type. It ends in
+                    <strong>&ldquo;ly&rdquo;</strong>, not <strong>&ldquo;lz&rdquo;</strong>.
+                </p>
+            </section>
+
+            <section>
+                <h2 style="margin-top: clamp(40px, 7vw, 60px);">Spellings people fumble</h2>
+                <p>If you typed any of these, you were aiming for the same place:</p>
+                <ul class="typos" aria-label="Common misspellings of Grammarly">
+                    <li>grammarlz</li>
+                    <li>gramarly</li>
+                    <li>grammerly</li>
+                    <li>grammary</li>
+                    <li>grammarli</li>
+                    <li>gramerly</li>
+                    <li class="correct">grammarly</li>
+                </ul>
+            </section>
+
+            <section class="faq" aria-label="Frequently asked questions">
+                <h2 style="margin-top: clamp(40px, 7vw, 60px); margin-bottom: 8px;">Questions, answered</h2>
+
+                <details>
+                    <summary>Is grammarlz.com the same as Grammarly? <span class="mark">+</span></summary>
+                    <p>No. This is an independent page and is not affiliated with, endorsed by, or operated by
+                    Grammarly Inc. It simply catches a common misspelling and points you to the correct destination.</p>
+                </details>
+
+                <details>
+                    <summary>What is the correct spelling of Grammarly? <span class="mark">+</span></summary>
+                    <p>It's <strong>G&middot;R&middot;A&middot;M&middot;M&middot;A&middot;R&middot;L&middot;Y</strong>
+                    &mdash; ending in &ldquo;ly&rdquo;. Think &ldquo;grammar&rdquo; + &ldquo;ly&rdquo;.</p>
+                </details>
+
+                <details>
+                    <summary>How do I get to the real Grammarly? <span class="mark">+</span></summary>
+                    <p>Tap <a href="https://www.grammarly.com" rel="noopener noreferrer">Continue to Grammarly</a> above,
+                    or type <strong>grammarly.com</strong> into your address bar.</p>
+                </details>
+            </section>
+        </div>
+
+        <footer>
+            <p>Not affiliated with or endorsed by Grammarly Inc. &ldquo;Grammarly&rdquo; is a trademark of its respective owner.</p>
+        </footer>
+    </main>
 </body>
 </html>
